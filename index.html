@@ -25,7 +25,7 @@
           <img class="navLogo" src="./images/Logo.png" />
           <div class="side-menu">
             <div class="historyOption" onclick="scrollPage()">01. HISTORY</div>
-            <div class="teamOption">02. TEAM</div>
+            <div class="teamOption" onclick="scrollPage2()">02. TEAM</div>
           </div>
         </nav>
       </div>
@@ -46,7 +46,7 @@
             >
               01. HISTORY
             </div>
-            <div class="teamOption" style="color: rgb(16, 16, 68)">
+            <div class="teamOption" onclick="scrollPage2()" style="color: rgb(16, 16, 68)">
               02. TEAM
             </div>
           </div>
@@ -85,7 +85,36 @@
         <div>
       </footer>
     </section>
-    <section class="section3"></section>
+    
+    <section class="section3">
+      <div class="wrapper_section3">
+        <nav class="navbar3">
+          <div class="climbPageText">
+            <div class="climbTitle">
+              <h1>02.</h1>
+              <h2>CLIMB</h2>
+              <div class="climbText">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+                  earum magni ipsa, omnis, quae quam, nihil fugiat sit veniam quasi
+                  reiciendis quos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        
+      </div>
+      <header class="headerSection">
+        <div class="header-container">
+        <h2 class="option1" onclick="changeBackgroundImageMountain1()">MOUNTAIN 1</h2>
+        <h2 class="option2" onclick="changeBackgroundImageMountain2()">MOUNTAIN 2</h2>
+      </div>
+      </header>
+      
+    </section>
+    
     <script src="index.js"></script>
   </body>
 </html>
