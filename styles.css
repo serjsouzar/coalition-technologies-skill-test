@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x:hidden
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  justify-content: space-around;
+}
+
+.section1 {
+  background-image: url("../images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+}
+
+.wrapper_section1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font: inherit;
+  font-style: italic;
+}
+
+.historyOption {
+  cursor: pointer;
+  font-weight: 500;
+  color: white;
+}
+
+.historyOption:hover {
+  text-decoration: underline;
+}
+
+.teamOption {
+  cursor: pointer;
+  font-weight: 500;
+  color: white;
+}
+
+.teamOption:hover {
+  text-decoration: underline;
+}
+
+.navLogo {
+  margin-left: 30px;
+}
+
+.side-menu {
+  margin-right: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.section2 {
+  background-image: url("../images/background2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+}
+
+.wrapper_section2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font: inherit;
+  font-style: italic;
+}
+
+.navbar2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  justify-content: space-around;
+  background-color: #ffff;
+  position: sticky;
+}
+
+.historyPageText {
+  display: flex;
+  align: center;
+  justify-content: start;
+  flex-direction: column;
+  width: 755px;
+  padding-top: 80px;
+}
+
+.historyTitle {
+  display: flex;
+}
+
+.historyTitle h1 {
+  font-size: 130px;
+  color: #687999;
+}
+
+.historyTitle h2 {
+  position: relative;
+  top: 46px;
+  right: 25px;
+  font-size: 50px;
+  color: rgb(61, 61, 112);
+}
+
+.historyText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 70px 0px 85px;
+}
+
+.historyFooter {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 395px;
+  background-color: rgba(104, 121, 153, 0.8);
+}
+
+.historyGallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.historyGallery img {
+  width: 200px;
+  height: 95px;
+}
+
+.historyArticle {
+  display: flex;
+  align: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.slideBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding-top: 8px;
+}
+
+.div-btn {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.div-btn2 {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.section3 {
+  background-image: url("../images/background3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+}
+
+.side-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 999px) {
+  .historyArticle {
+    height: 60vh;
+  }
+
+  .historyGallery img {
+    width: 200px;
+    height: 95px;
+  }
+
+  .historyFooter {
+    align-items: center;
+    justify-content: center;
+    height: 295px;
+  }
+
+  .historyGallery {
+    padding-top: 5px;
+  }
+}
+
+@media (max-width: 769px) {
+  .historyFooter {
+    height: 153px;
+  }
+
+  .slideBtn {
+    padding-bottom: 23px;
+  }
+}
+
+@media only (width: 2000px) {
+  .historyGallery img {
+    width: 250px;
+    height: 135px;
+  }

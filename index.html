@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo&family=Old+Standard+TT:ital@1&family=Oswald:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo&family=Old+Standard+TT:ital@1&family=Oswald:wght@200;400&family=Roboto:ital,wght@0,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CT</title>
+  </head>
+  <body>
+    <section class="section1">
+      <div class="wrapper_section1">
+        <nav class="navbar">
+          <img class="navLogo" src="./images/Logo.png" />
+          <div class="side-menu">
+            <div class="historyOption" onclick="scrollPage()">01. HISTORY</div>
+            <div class="teamOption">02. TEAM</div>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <section class="section2">
+      <div class="wrapper_section2">
+        <nav class="navbar2">
+          <div>
+            <img class="navLogo" src="./images/Logo.png" />
+            <img class="navLogo1" src="./images/Logo2.png" />
+          </div>
+          <div class="side-menu">
+            <div
+              class="historyOption"
+              onclick="scrollPage()"
+              style="color: rgb(16, 16, 68)"
+            >
+              01. HISTORY
+            </div>
+            <div class="teamOption" style="color: rgb(16, 16, 68)">
+              02. TEAM
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <article class="historyArticle">
+        <div class="historyPageText">
+          <div class="historyTitle">
+            <h1>01.</h1>
+            <h2>HISTORY</h2>
+          </div>
+          <div class="historyText">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+              earum magni ipsa, omnis, quae quam, nihil fugiat sit veniam quasi
+              reiciendis quos. Culpa aliquam enim nobis perferendis recusandae
+              officiis officia. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Quas earum magni ipsa.
+            </p>
+          </div>
+        </div>
+      </article>
+      <footer class="historyFooter">
+        <div class="historyGallery">
+          <img class="slideImg1" src="./images/slide1.png" />
+          <img class="slideImg2" src="./images/slide2.png" />
+          <img class="slideImg3" src="./images/slide3.png" />
+          <img class="slideImg4" src="./images/slide4.png" />
+        </div>
+
+        <div class="slideBtn">
+          <div onclick="slideImagesFunc1()" class="div-btn"></div>
+          <div onclick="slideImagesFunc2()" class="div-btn2"></div>
+          <div onclick="slideImagesFunc1()" class="div-btn"></div>  
+        <div>
+      </footer>
+    </section>
+    <section class="section3"></section>
+    <script src="index.js"></script>
+  </body>
+</html>
