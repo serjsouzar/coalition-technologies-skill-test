@@ -280,6 +280,58 @@ body {
   cursor: pointer
 }
 
+.schedule li {
+  list-style: none
+}
+
+.schedule-area{
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh
+}
+
+.schedule {
+  background-color: rgba(218,220,225, 0.8);
+  display: flex;
+  width: 300px;
+  max-height: 350px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 35px
+}
+
+.sche-lists {
+  display: flex;
+}
+
+.sche-lists li {
+  margin: 15px;
+}
+
+.sche-title {
+  width: 100%;
+  margin-left: 45px
+}
+
+.sche-title h1 {
+  font-size: 38px;
+  color: #48546B
+}
+
+.footer-area {
+  width: 100%
+}
+
+.footer-page {
+  display: flex;
+  align-items: center
+}
+
+
 @media (max-width: 999px) {
   .historyArticle {
     height: 60vh;
@@ -317,6 +369,5 @@ body {
     width: 280px;
     height: 135px;
   }
-
 }
   
